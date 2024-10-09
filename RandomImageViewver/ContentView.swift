@@ -79,7 +79,7 @@ struct AboutUsView: View {
 }
 struct ContactView: View {
     @State private var userName: String = ""
-    @State private var contactAddress String = ""
+    @State private var contactAddress: String = ""
     @State private var messageBody: String = ""
     @State private var showMessageComposer = false
     @State private var showMailComposer = false
